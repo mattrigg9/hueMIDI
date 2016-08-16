@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import sys, select, random, yaml, os.path
+import sys, random, yaml, os.path
 import rtmidi_python as rtmidi
 from phue import Bridge
 

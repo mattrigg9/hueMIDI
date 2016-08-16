@@ -8,4 +8,9 @@ setup(name='hueMIDI',
       author_email='mriggery@gmail.com',
       license='MIT',
       packages=['hueMIDI'],
+      install_requires=[
+          'rtmidi_python',
+          'phue',
+          'yaml'
+      ],
       zip_safe=False)
